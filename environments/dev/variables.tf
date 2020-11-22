@@ -9,6 +9,7 @@ variable "project_id" {
 }
 
 variable "member_id" {
+  default = "99"
   description = "member id"
 }
 
