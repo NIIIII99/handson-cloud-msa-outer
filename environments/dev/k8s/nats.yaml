@@ -7,4 +7,6 @@ spec:
   version: "2.1.8"
 #  pod:
 #    annotations:
-#      sidecar.istio.io/inject: "false"
+#      sidecar.istio.io/inject: "false"      
+  extraRoutes:
+    - route: "nats://nats-cluster:4222"
